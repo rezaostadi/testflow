@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.windmill.dev/"><img src="./imgs/windmill-banner.png" alt="windmill.dev"></a>
+  <a href="https://www.formflow.dev/"><img src="./imgs/formflow-banner.png" alt="formflow.dev"></a>
 </p>
 
 <p align=center>
@@ -10,11 +10,11 @@ Scripts are turned into sharable UIs automatically, and can be composed together
 </p>
 
 <p align="center">
-<a href="https://github.com/windmill-labs/windmill/blob/main/LICENSE-AGPL" target="_blank">
+<a href="https://github.com/formflow-labs/formflow/blob/main/LICENSE-AGPL" target="_blank">
     <img src="https://img.shields.io/badge/License-AGPLv3-blue.svg" alt="Package version">
 </a>
-<a href="https://github.com/windmill-labs/windmill/actions/workflows/docker-image.yml" target="_blank">
-    <img src="https://github.com/windmill-labs/windmill/actions/workflows/docker-image.yml/badge.svg" alt="Docker Image CI">
+<a href="https://github.com/formflow-labs/formflow/actions/workflows/docker-image.yml" target="_blank">
+    <img src="https://github.com/formflow-labs/formflow/actions/workflows/docker-image.yml/badge.svg" alt="Docker Image CI">
 </a>
 <a href="https://pypi.org/project/wmill" target="_blank">
     <img src="https://img.shields.io/pypi/v/wmill?color=%2334D058&label=pypi%20package" alt="Package version">
@@ -22,8 +22,8 @@ Scripts are turned into sharable UIs automatically, and can be composed together
 </p>
 
 <p align="center">
-<a href="https://img.shields.io/github/commit-activity/m/windmill-labs/windmill" target="_blank">
-    <img src="https://img.shields.io/github/commit-activity/m/windmill-labs/windmill" alt="Commit activity">
+<a href="https://img.shields.io/github/commit-activity/m/formflow-labs/formflow" target="_blank">
+    <img src="https://img.shields.io/github/commit-activity/m/formflow-labs/formflow" alt="Commit activity">
 </a>
 <a href="https://discord.gg/V7PM2YHsPB" target="_blank">
   <img src="https://discordapp.com/api/guilds/930051556043276338/widget.png" alt="Discord Shield"/>
@@ -31,19 +31,19 @@ Scripts are turned into sharable UIs automatically, and can be composed together
 </p>
 
 <p align="center">
-  <a href="https://app.windmill.dev">Try it</a> - <a href="https://www.windmill.dev/docs/intro/">Docs</a> - <a href="https://discord.gg/V7PM2YHsPB">Discord</a> - <a href="https://hub.windmill.dev">Hub</a> - <a href="https://www.windmill.dev/docs/misc/contributing">Contributor's guide</a>
+  <a href="https://app.formflow.dev">Try it</a> - <a href="https://www.formflow.dev/docs/intro/">Docs</a> - <a href="https://discord.gg/V7PM2YHsPB">Discord</a> - <a href="https://hub.formflow.dev">Hub</a> - <a href="https://www.formflow.dev/docs/misc/contributing">Contributor's guide</a>
 </p>
 
-# Windmill - Developer platform for APIs, background jobs, workflows and UIs
+# Formflow - Developer platform for APIs, background jobs, workflows and UIs
 
-Windmill is <b>fully open-sourced (AGPLv3)</b> and Windmill Labs offers
+Formflow is <b>fully open-sourced (AGPLv3)</b> and Formflow Labs offers
 dedicated instance and commercial support and licenses.
 
-![Windmill Diagram](./imgs/stacks.svg)
+![Formflow Diagram](./imgs/stacks.svg)
 
-https://github.com/windmill-labs/windmill/assets/122811744/0b132cd1-ee67-4505-822f-0c7ee7104252
+https://github.com/formflow-labs/formflow/assets/122811744/0b132cd1-ee67-4505-822f-0c7ee7104252
 
-- [Windmill - Developer platform for APIs, background jobs, workflows and UIs](#windmill---developer-platform-for-apis-background-jobs-workflows-and-uis)
+- [Formflow - Developer platform for APIs, background jobs, workflows and UIs](#formflow---developer-platform-for-apis-background-jobs-workflows-and-uis)
   - [Main Concepts](#main-concepts)
   - [Show me some actual script code](#show-me-some-actual-script-code)
   - [CLI](#cli)
@@ -73,44 +73,44 @@ https://github.com/windmill-labs/windmill/assets/122811744/0b132cd1-ee67-4505-82
 
 1. Define a minimal and generic script in Python, TypeScript, Go or Bash that
    solves a specific task. The code can be defined in the
-   [provided Web IDE](https://www.windmill.dev/docs/code_editor) or
-   [synchronized with your own GitHub repo](https://www.windmill.dev/docs/advanced/cli/sync)
+   [provided Web IDE](https://www.formflow.dev/docs/code_editor) or
+   [synchronized with your own GitHub repo](https://www.formflow.dev/docs/advanced/cli/sync)
    (e.g. through
-   [VS Code](https://www.windmill.dev/docs/cli_local_dev/vscode-extension)
+   [VS Code](https://www.formflow.dev/docs/cli_local_dev/vscode-extension)
    extension):
 
-   ![Step 1](./imgs/windmill-editor.png)
+   ![Step 1](./imgs/formflow-editor.png)
 
 2. Your scripts parameters are automatically parsed and
-   [generate a frontend](https://www.windmill.dev/docs/core_concepts/auto_generated_uis).
+   [generate a frontend](https://www.formflow.dev/docs/core_concepts/auto_generated_uis).
 
-![Step 2](./imgs/windmill-run.png)
+![Step 2](./imgs/formflow-run.png)
 
-![Step 3](./imgs/windmill-result.png)
+![Step 3](./imgs/formflow-result.png)
 
-3. Make it [flow](https://www.windmill.dev/docs/flows/flow_editor)! You can
+3. Make it [flow](https://www.formflow.dev/docs/flows/flow_editor)! You can
    chain your scripts or scripts made by the community shared on
-   [WindmillHub](https://hub.windmill.dev).
+   [FormflowHub](https://hub.formflow.dev).
 
-   ![Step 3](./imgs/windmill-flow.png)
+   ![Step 3](./imgs/formflow-flow.png)
 
-4. Build [complex UIs](https://www.windmill.dev/docs/apps/app_editor) on top of
+4. Build [complex UIs](https://www.formflow.dev/docs/apps/app_editor) on top of
    your scripts and flows.
 
-   ![Step 4](./imgs/windmill-builder.png)
+   ![Step 4](./imgs/formflow-builder.png)
 
 Scripts and flows can also be triggered by a
-[cron schedule](https://www.windmill.dev/docs/core_concepts/scheduling) (e.g.
+[cron schedule](https://www.formflow.dev/docs/core_concepts/scheduling) (e.g.
 '_/5 _ \* \* \*') or through
-[webhooks](https://www.windmill.dev/docs/core_concepts/webhooks).
+[webhooks](https://www.formflow.dev/docs/core_concepts/webhooks).
 
-You can build your entire infra on top of Windmill!
+You can build your entire infra on top of Formflow!
 
 ## Show me some actual script code
 
 ```typescript
 //import any dependency  from npm
-import * as wmill from "windmill-client";
+import * as wmill from "formflow-client";
 import * as cowsay from "cowsay@1.5.0";
 
 // fill the type, or use the +Resource type to get a type-safe reference to a resource
@@ -146,10 +146,10 @@ export async function main(
 
 ## CLI
 
-We have a powerful CLI to interact with the windmill platform and sync your
+We have a powerful CLI to interact with the formflow platform and sync your
 scripts from local files, GitHub repos and to run scripts and flows on the
 instance from local commands. See
-[more details](https://www.windmill.dev/docs/advanced/cli).
+[more details](https://www.formflow.dev/docs/advanced/cli).
 
 ![CLI Screencast](./cli/vhs/output/setup.gif)
 
@@ -158,10 +158,10 @@ instance from local commands. See
 You can run your script locally easily, you simply need to pass the right
 environment variables for the `wmill` client library to fetch resources and
 variables from your instance if necessary. See more:
-<https://www.windmill.dev/docs/advanced/local_development>.
+<https://www.formflow.dev/docs/advanced/local_development>.
 
-To develop & test locally scripts & flows, we recommend using the Windmill VS
-Code extension: <https://www.windmill.dev/docs/cli_local_dev/vscode-extension>.
+To develop & test locally scripts & flows, we recommend using the Formflow VS
+Code extension: <https://www.formflow.dev/docs/cli_local_dev/vscode-extension>.
 
 ## Stack
 
@@ -170,7 +170,7 @@ Code extension: <https://www.windmill.dev/docs/cli_local_dev/vscode-extension>.
   Architecture:
   - Stateless API backend.
   - Workers that pull jobs from a queue in Postgres (and later, Kafka or Redis.
-    Upvote [#173](#https://github.com/windmill-labs/windmill/issues/173) if
+    Upvote [#173](#https://github.com/formflow-labs/formflow/issues/173) if
     interested).
 - Frontend in Svelte.
 - Scripts executions are sandboxed using Google's
@@ -184,13 +184,13 @@ Code extension: <https://www.windmill.dev/docs/cli_local_dev/vscode-extension>.
 
 ## Fastest Self-Hostable Workflow Engine
 
-We have compared Windmill to other self-hostable workflow engines (Airflow,
-Prefect & Temporal) and Windmill is the most performant solution for both
+We have compared Formflow to other self-hostable workflow engines (Airflow,
+Prefect & Temporal) and Formflow is the most performant solution for both
 benchmarks: one flow composed of 40 lightweight tasks & one flow composed of 10
 long-running tasks.
 
 All methodology & results on our
-[Benchmarks](https://www.windmill.dev/docs/misc/benchmarks/competitors#airflow-setup)
+[Benchmarks](https://www.formflow.dev/docs/misc/benchmarks/competitors#airflow-setup)
 page.
 
 ![Fastest workflow engine](./imgs/fastest.png)
@@ -199,17 +199,17 @@ page.
 
 ### Sandboxing
 
-Windmill can use [nsjail](https://github.com/google/nsjail). It is production
+Formflow can use [nsjail](https://github.com/google/nsjail). It is production
 multi-tenant grade secure. Do not take our word for it, take
 [fly.io's one](https://fly.io/blog/sandboxing-and-workload-isolation/).
 
 ### Secrets, credentials and sensitive values
 
 There is one encryption key per workspace to encrypt the credentials and secrets
-stored in Windmill's K/V store.
+stored in Formflow's K/V store.
 
 In addition, we strongly recommend that you encrypt the whole Postgres database.
-That is what we do at <https://app.windmill.dev>.
+That is what we do at <https://app.formflow.dev>.
 
 ## Performance
 
@@ -231,103 +231,105 @@ back to the database is ~50ms. A typical lightweight deno job will take around
 
 We only provide docker-compose setup here. For more advanced setups, like
 compiling from source or using without a postgres super user, see
-[Self-Host documentation](https://www.windmill.dev/docs/advanced/self_host).
+[Self-Host documentation](https://www.formflow.dev/docs/advanced/self_host).
 
 ### Docker compose
 
-Windmill can be deployed using 3 files:
+Formflow can be deployed using 3 files:
 ([docker-compose.yml](./docker-compose.yml), [Caddyfile](./Caddyfile) and a
 [.env](./.env)) in a single command.
 
 Make sure Docker is started, and run:
 
 ```
-curl https://raw.githubusercontent.com/windmill-labs/windmill/main/docker-compose.yml -o docker-compose.yml
-curl https://raw.githubusercontent.com/windmill-labs/windmill/main/Caddyfile -o Caddyfile
-curl https://raw.githubusercontent.com/windmill-labs/windmill/main/.env -o .env
+curl https://raw.githubusercontent.com/formflow-labs/formflow/main/docker-compose.yml -o docker-compose.yml
+curl https://raw.githubusercontent.com/formflow-labs/formflow/main/Caddyfile -o Caddyfile
+curl https://raw.githubusercontent.com/formflow-labs/formflow/main/.env -o .env
 
 docker compose up -d
 ```
 
 Go to http://localhost et voilà :)
 
-The default super-admin user is: admin@windmill.dev / changeme.
+The default super-admin user is: admin@formflow.dev / changeme.
 
 From there, you can follow the setup app and create other users.
+For offline installations, run `./offline_setup.sh` beforehand to cache all dependencies.
+
 
 More details in
-[Self-Host Documention](https://www.windmill.dev/docs/advanced/self_host#docker).
+[Self-Host Documention](https://www.formflow.dev/docs/advanced/self_host#docker).
 
 ### Kubernetes (k8s) and Helm charts
 
 We publish helm charts at:
-<https://github.com/windmill-labs/windmill-helm-charts>.
+<https://github.com/formflow-labs/formflow-helm-charts>.
 
 ### Run from binaries
 
 Each release includes the corresponding binaries for x86_64. You can simply
-download the latest `windmill` binary using the following set of bash commands.
+download the latest `formflow` binary using the following set of bash commands.
 
 ```bash
-BINARY_NAME='windmill-amd64' # or windmill-ee-amd64 for the enterprise edition
-LATEST_RELEASE=$(curl -L -s -H 'Accept: application/json' https://github.com/windmill-labs/windmill/releases/latest)
+BINARY_NAME='formflow-amd64' # or formflow-ee-amd64 for the enterprise edition
+LATEST_RELEASE=$(curl -L -s -H 'Accept: application/json' https://github.com/formflow-labs/formflow/releases/latest)
 LATEST_VERSION=$(echo $LATEST_RELEASE | sed -e 's/.*"tag_name":"\([^"]*\)".*/\1/')
-ARTIFACT_URL="https://github.com/windmill-labs/windmill/releases/download/$LATEST_VERSION/$BINARY_NAME"
-wget "$ARTIFACT_URL" -O windmill
+ARTIFACT_URL="https://github.com/formflow-labs/formflow/releases/download/$LATEST_VERSION/$BINARY_NAME"
+wget "$ARTIFACT_URL" -O formflow
 ```
 
 ### OAuth, SSO & SMTP
 
-Windmill Community Edition allows to configure the OAuth, SSO (including Google
+Formflow Community Edition allows to configure the OAuth, SSO (including Google
 Workspace SSO, Microsoft/Azure and Okta) directly from the UI in the superadmin
 settings. Do note that there is a limit of 10 SSO users on the community
 edition.
 
-[See documentation](https://www.windmill.dev/docs/misc/setup_oauth).
+[See documentation](https://www.formflow.dev/docs/misc/setup_oauth).
 
 ### Commercial license
 
-See the [LICENSE](https://github.com/windmill-labs/windmill/blob/main/LICENSE)
+See the [LICENSE](https://github.com/formflow-labs/formflow/blob/main/LICENSE)
 file for the full license text.
 
-The "Community Edition" of Windmill available in the docker images hosted under
-ghcr.io/windmill-labs/windmill and the github binary releases contains the files
+The "Community Edition" of Formflow available in the docker images hosted under
+ghcr.io/formflow-labs/formflow and the github binary releases contains the files
 under the AGPLv3 and Apache 2 sources but also includes proprietary and
 non-public code and features which are not open source and under the following
-terms: Windmill Labs, Inc. grants a right to use all the features of the
+terms: Formflow Labs, Inc. grants a right to use all the features of the
 "Community Edition" for free without restrictions other than the limits and
 quotas set in the software and a right to distribute the community edition as is
-but not to sell, resell, serve Windmill as a managed service, modify or wrap
+but not to sell, resell, serve Formflow as a managed service, modify or wrap
 under any form without an explicit agreement.
 
 The binary compilable from source code in this repository without the
 "enterprise" feature flag is open-source under the
-[LICENSE-AGPLv3](https://github.com/windmill-labs/windmill/blob/main/LICENSE-AGPL)
+[LICENSE-AGPLv3](https://github.com/formflow-labs/formflow/blob/main/LICENSE-AGPL)
 License terms and conditions.
 
 To
-[re-expose directly any Windmill parts to your users](https://www.windmill.dev/docs/misc/white_labelling)
-as a feature of your product, with the exception of iframed public Windmill
-"apps", or to build a feature on top of "Windmill Community Edition" that you
+[re-expose directly any Formflow parts to your users](https://www.formflow.dev/docs/misc/white_labelling)
+as a feature of your product, with the exception of iframed public Formflow
+"apps", or to build a feature on top of "Formflow Community Edition" that you
 sell commercially or embed in a distributable product or binary, you must get a
-commercial license. Contact us at <sales@windmill.dev> if you have any
+commercial license. Contact us at <sales@formflow.dev> if you have any
 questions. To do the same from the binary compiled from the source code in this
 repository without the "enterprise" feature flag, you must comply with the
-AGPLv3 license terms and conditions or get a commercial license from Windmill
+AGPLv3 license terms and conditions or get a commercial license from Formflow
 Labs, Inc.
 
-To use Windmill "Community Edition" as is internally in your organization, or to
+To use Formflow "Community Edition" as is internally in your organization, or to
 use its APIs as is, you do NOT need a commercial license.
 
 ### Integrations
 
-In Windmill, integrations are referred to as
-[resources and resource types](https://www.windmill.dev/docs/core_concepts/resources_and_types).
+In Formflow, integrations are referred to as
+[resources and resource types](https://www.formflow.dev/docs/core_concepts/resources_and_types).
 Each Resource has a Resource Type that defines the schema that the resource
 needs to implement.
 
 On self-hosted instances, you might want to import all the approved resource
-types from [WindmillHub](https://hub.windmill.dev). A setup script will prompt
+types from [FormflowHub](https://hub.formflow.dev). A setup script will prompt
 you to have it being synced automatically everyday.
 
 ## Environment Variables
@@ -344,7 +346,7 @@ you to have it being synced automatically everyday.
 | RESTART_ZOMBIE_JOBS                 | true                   | If true then a zombie job is restarted (in-place with the same uuid and some logs), if false the zombie job is failed                                                                              | Server                |
 | SLEEP_QUEUE                         | 50                     | The number of ms to sleep in between the last check for new jobs in the DB. It is multiplied by NUM_WORKERS such that in average, for one worker instance, there is one pull every SLEEP_QUEUE ms. | Worker                |
 | KEEP_JOB_DIR                        | false                  | Keep the job directory after the job is done. Useful for debugging.                                                                                                                                | Worker                |
-| LICENSE_KEY (EE only)               | None                   | License key checked at startup for the Enterprise Edition of Windmill                                                                                                                              | Worker                |
+| LICENSE_KEY (EE only)               | None                   | License key checked at startup for the Enterprise Edition of Formflow                                                                                                                              | Worker                |
 | SLACK_SIGNING_SECRET                | None                   | The signing secret of your Slack app. See [Slack documentation](https://api.slack.com/authentication/verifying-requests-from-slack)                                                                | Server                |
 | COOKIE_DOMAIN                       | None                   | The domain of the cookie. If not set, the cookie will be set by the browser based on the full origin                                                                                               | Server                |
 | DENO_PATH                           | /usr/bin/deno          | The path to the deno binary.                                                                                                                                                                       | Worker                |
@@ -353,11 +355,11 @@ you to have it being synced automatically everyday.
 | GOPRIVATE                           |                        | The GOPRIVATE env variable to use private go modules                                                                                                                                               | Worker                |
 | GOPROXY                             |                        | The GOPROXY env variable to use                                                                                                                                                                    | Worker                |
 | NETRC                               |                        | The netrc content to use a private go registry                                                                                                                                                     | Worker                |
-| PY_CONCURRENT_DOWNLOADS             | 20                     | Sets the maximum number of in-flight concurrent python downloads that windmill will perform at any given time.                                                                                     | Worker                |
+| PY_CONCURRENT_DOWNLOADS             | 20                     | Sets the maximum number of in-flight concurrent python downloads that formflow will perform at any given time.                                                                                     | Worker                |
 | PATH                                | None                   | The path environment variable, usually inherited                                                                                                                                                   | Worker                |
 | HOME                                | None                   | The home directory to use for Go and Bash , usually inherited                                                                                                                                      | Worker                |
 | DATABASE_CONNECTIONS                | 50 (Server)/3 (Worker) | The max number of connections in the database connection pool                                                                                                                                      | All                   |
-| SUPERADMIN_SECRET                   | None                   | A token that would let the caller act as a virtual superadmin superadmin@windmill.dev                                                                                                              | Server                |
+| SUPERADMIN_SECRET                   | None                   | A token that would let the caller act as a virtual superadmin superadmin@formflow.dev                                                                                                              | Server                |
 | TIMEOUT_WAIT_RESULT                 | 20                     | The number of seconds to wait before timeout on the 'run_wait_result' endpoint                                                                                                                     | Worker                |
 | QUEUE_LIMIT_WAIT_RESULT             | None                   | The number of max jobs in the queue before rejecting immediately the request in 'run_wait_result' endpoint. Takes precedence on the query arg. If none is specified, there are no limit.           | Worker                |
 | DENO_AUTH_TOKENS                    | None                   | Custom DENO_AUTH_TOKENS to pass to worker to allow the use of private modules                                                                                                                      | Worker                |
@@ -374,14 +376,14 @@ Using [Nix](./frontend/README_DEV.md#nix).
 
 ### only Frontend
 
-This will use the backend of <https://app.windmill.dev> but your own frontend
+This will use the backend of <https://app.formflow.dev> but your own frontend
 with hot-code reloading. Note that you will need to use a username / password
 login due to CSRF checks using a different auth provider.
 
 In the `frontend/` directory:
 
 1. install the dependencies with `npm install` (or `pnpm install` or `yarn`)
-2. generate the windmill client:
+2. generate the formflow client:
 
 ```
 npm run generate-backend-client
@@ -390,14 +392,14 @@ npm run generate-backend-client-mac
 ```
 
 3. Run your dev server with `npm run dev`
-4. Et voilà, windmill should be available at `http://localhost/`
+4. Et voilà, formflow should be available at `http://localhost/`
 
 ### Backend + Frontend
 
 See the [./frontend/README_DEV.md](./frontend/README_DEV.md) file for all
 running options.
 
-1. Create a Postgres Database for Windmill and create an admin role inside your
+1. Create a Postgres Database for Formflow and create an admin role inside your
    Postgres setup. The easiest way to get a working db is to run
    ```
    cargo install sqlx-cli
@@ -419,14 +421,14 @@ running options.
    4. In another shell `sudo caddy run --config Caddyfile`
 7. Go to `backend/`:
    `env DATABASE_URL=<DATABASE_URL_TO_YOUR_WINDMILL_DB> RUST_LOG=info cargo run`
-8. Et voilà, windmill should be available at `http://localhost/`
+8. Et voilà, formflow should be available at `http://localhost/`
 
 ## Contributors
 
-<a href="https://github.com/windmill-labs/windmill/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=windmill-labs/windmill" />
+<a href="https://github.com/formflow-labs/formflow/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=formflow-labs/formflow" />
 </a>
 
 ## Copyright
 
-Windmill Labs, Inc 2023
+Formflow Labs, Inc 2023

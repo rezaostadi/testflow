@@ -47,12 +47,12 @@ The only strictly required components are:
 
 This terraform has been assembled to easily remove components. Each component mentioned in the above list is entirely contained in a `.tf` file. If you don't want it, just remove the file. And if you want to tune it, you know where to look.
 
-- _REQUIRED_ Windmill server -> [windmill_server.tf](./windmill_server.tf)
-- _REQUIRED_ Multi-purpose windmill worker -> [windmill_worker_basic.tf](./windmill_worker_basic.tf)
-- _OPTIONAL_ Windmill LSP -> [windmill_lsp.tf](./windmill_lsp.tf)
-- _OPTIONAL_ Windmill Multiplayer -> [windmill_multiplayer.tf](./windmill_multiplayer.tf)
-- _OPTIONAL_ Windmill Native worker -> [windmill_worker_native.tf](./windmill_worker_native.tf)
-- _OPTIONAL_ Windmill High Performace worker -> [windmill_worker_high_performance.tf](./windmill_worker_high_performance.tf) - this one is a lot longer because it deploys a new auto scaling group
+- _REQUIRED_ Windmill server -> [formflow_server.tf](./formflow_server.tf)
+- _REQUIRED_ Multi-purpose formflow worker -> [formflow_worker_basic.tf](./formflow_worker_basic.tf)
+- _OPTIONAL_ Windmill LSP -> [formflow_lsp.tf](./formflow_lsp.tf)
+- _OPTIONAL_ Windmill Multiplayer -> [formflow_multiplayer.tf](./formflow_multiplayer.tf)
+- _OPTIONAL_ Windmill Native worker -> [formflow_worker_native.tf](./formflow_worker_native.tf)
+- _OPTIONAL_ Windmill High Performace worker -> [formflow_worker_high_performance.tf](./formflow_worker_high_performance.tf) - this one is a lot longer because it deploys a new auto scaling group
 
 ### Network
 
@@ -82,4 +82,4 @@ and then
 terraform apply
 ```
 
-![Windmill screenshot](./assets/windmill.png)
+![Formflow screenshot](./assets/formflow.png)
